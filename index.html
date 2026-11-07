@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Ingyin 💗</title>
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+  background: linear-gradient(135deg,#ffe5f0,#ffd9e9);
+  color: #a83d70;
+}
+.card {
+  background: white;
+  padding: 30px 20px;
+  margin: 20px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px #d88aaa55;
+}
+h1 { color: #d64c8b; }
+.bear { font-size: 65px; }
+p { font-size: 19px; line-height: 1.8; }
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 13px 25px;
+  margin: 8px;
+  background: #ed69a1;
+  color: white;
+  font-size: 17px;
+}
+#answer {
+  display: none;
+  background: #fff0f6;
+  padding: 15px;
+  border-radius: 15px;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>ချစ်စရာ Surprise လေး 💗</h1>
+  <div class="bear">🧸🌷</div>
+  <p>
+    ဆရာမလေး <b>Ingyin</b> ရေ…<br>
+    Khant ရဲ့ ဒီ Surprise လေးကို<br>
+    လက်ခံပေးမလား။ 💕
+  </p>
+  <button onclick="showLove()">Yes 💗</button>
+  <button onclick="showLove()">Yes 🥰</button>
+  <p id="answer">
+    ကျေးဇူးပါ Ingyin ရေ 💞<br>
+    မင်းရဲ့နေ့ရက်တိုင်း ပျော်ရွှင်မှုတွေနဲ့<br>
+    ပြည့်နေပါစေ။<br>
+    — Khant 🌷
+  </p>
+</div>
+<script>
+function showLove() {
+  document.getElementById("answer").style.display="block";
+}
+</script>
+</body>
+</html>
+
